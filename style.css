@@ -1,0 +1,198 @@
+body {
+    background-color: darkolivegreen;
+}
+input[type=text]{
+    position: fixed;
+    left: 5px;
+    top: 465px;
+    width: 210px;
+    height: 24px;
+    border:2px solid #000000 ;
+}
+button {
+    position: fixed;
+    left:230px;
+    top: 540px;
+    width: 220px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button.save {
+    position: fixed;
+    left:230px;
+    top: 575px;
+    width: 220px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label.thickness {
+    position: fixed;
+    left: 230px;
+    top: 465px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+select.thickness {
+    position: fixed;
+    left: 410px;
+    top: 465px;
+    width: 40px;
+    height: 30px;    
+}
+label.origin {
+    position: fixed;
+    left: 5px;
+    top: 500px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+input.customAngle {
+    position: fixed;
+    left: 150px;
+    top: 500px;
+    width: 65px;
+    visibility: hidden;
+}
+select.offang {
+    position: fixed;
+    left: 85px;
+    top: 500px;
+    width: 60px;
+    height: 30px;    
+}
+input.lineColor {
+    position: fixed;
+    left: 400px;
+    top: 500px;
+}
+label.lineColor{
+    position: fixed;
+    left: 230px;
+    top: 500px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+label.scale {
+    position: fixed;
+    left:5px;
+    top: 540px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+input.polarscale {
+    position: fixed;
+    left: 180px;
+    top: 540px;
+    width: 30px;
+}
+input.xshift {
+    position: fixed;
+    left: 95px;
+    top: 580px;
+    width: 40px;
+}
+input.yshift {
+    position: fixed;
+    left: 235px;
+    top: 580px;
+    width: 40px;  
+}
+label.xshift {
+    position: fixed;
+    left: 5px;
+    top: 580px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+label.yshift {
+    position: fixed;
+    left: 150px;
+    top: 580px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+button.url {
+    position: fixed;
+    left:295px;
+    top: 580px;
+    width: 155px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+img {
+    display:none;
+}
+img.logo {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 465px;
+}
+label.settings {
+    position: fixed;
+    left: 5px;
+    top: 620px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;    
+}
+select.settings {
+    position: fixed;
+    left: 100px;
+    top: 620px;
+    width: 120px;
+    height: 30px;   
+}
+button.refresh {
+    position: fixed;
+    left:230px;
+    top: 620px;
+    width: 220px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+div.menu {
+    display: block;
+    position: fixed;
+    top: 170px;
+    left: 465px;
+    width: 310px;
+    height: 475px;
+    background-color:rgb(36, 82, 27);
+    margin-left: 5px;
+}
+div.desc {
+    display: none;
+    position: fixed;
+    top: 170px;
+    left: 800px;
+    width: 500px;
+    height: 475px;
+    background-color:rgb(36, 82, 27);    
+    margin-left: 5px;
+}
+p.intro {
+    position:relative;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p.imp {
+    position:relative;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 143, 23);
+}

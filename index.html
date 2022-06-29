@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Polysketch: Precision For Everyone</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<body style="margin: 3px;">
+<img src="grid.png" id="grid">
+<img id="newIMG" class="newIMG">
+<img class="logo" src="logo.png">
+<canvas id="canvas" style="border: solid black 2px;"></canvas>
+<script src="main.js"></script>
+<input class = "sides" type="text" id="sideNumber" placeholder="Number of sides?">
+<button id="gen" onclick="generatePoly(Number(sideNumber.value))">Generate</button>
+<label for="thickness" class="thickness">Line Thickness:</label>
+<select name="thickness" id="thickness" class="thickness">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+<label for="origin" class="origin">Angle:</label>
+<select name="offang" id="offang" class="offang">
+    <option value="0">0°</option>
+    <option value="90">90°</option>
+    <option value="180">180°</option>
+    <option value="270">270°</option>
+    <option value="custom">Custom</option>
+</select>
+<input class="customAngle" id="customAngle" type="text" placeholder="0°">
+<label for="lineColor" class="lineColor">Line Color:</label>
+<input class="lineColor" id="lineColor" type="color" placeholder="#000000">
+<label for="scale" class="scale">Polygon Scale:</label>
+<input class="polarscale" id="polarscale" type="text" value="1">
+<label for="xshift" class="xshift">X-Shift:</label>
+<input class="xshift" id="xshift" type="text" value="0">
+<label for="yshift" class="yshift">Y-Shift:</label>
+<input class="yshift" id="yshift" type="text" value="0">
+<button id="url" class="url" onclick="download_canv()">Create URL</button>
+<label for="settings" class="settings">Canvas:</label>
+<select name="settings" id="settings" class="settings">
+    <option value="grid">White/Grid</option>
+    <option value="blank">White/No Grid</option>
+    <option value="cleargrid">Clear/Grid</option>
+    <option value="empty">Clear/No Grid</option>
+</select>
+<button id="refresh" class="refresh" onclick="refreshCanvas(settings.value)">Refresh Canvas</button>
+<div class="menu" id="menu">
+<p class="intro"><b>Welcome to Polysketch!</b> A web program used to create artwork using precise polygons and shapes generated on the HTML Canvas element.
+<br></br>
+Use the tools under the canvas to get started. You can customize nearly everything! To generate a shape, you only need to specify the sides in the textbox.
+Also try switching up the angle, size, or origin. <b>Take note of the scale along the grid axes.</b>
+<br></br>
+You can also change the color and width of the shapes lines.
+</p>
+
+<p class="imp">
+<b>As of yet there is no function to fill in space, rather this can be done with dense lines drawn where needed.</b>
+<br></br>
+<b>Text inputs DO NOT take arithmetic operations as valid inputs i.e.(13+29).</b>
+</p>
+<p class="intro">
+Designed and Created by IvanoMaker
+<b>Email</b> | <b>GitHub</b>   
+</p>
+</div>
+<div class="desc">
+
+</div>
+</body>
+</html>
